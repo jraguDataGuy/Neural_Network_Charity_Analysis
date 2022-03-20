@@ -6,7 +6,7 @@ Is there a way to predict success amongst applicants funded by Alphabet Soup? Us
 ### Data Pre-Processing
 - Targets: Looking at our data, the column IS_SUCCESSFUL has a binary pattern indcating success/non success of the applicant. Given the binary nature, this becomes our target in the data.
 - Features: Once we removed EIN and NAME columns, we can identify which columns are features. When analyzing our data, the name and EIN numbers are not pertinent in training our model. The features based on unique values are as follows:
-![Features]()
+![Features](https://github.com/jraguDataGuy/Neural_Network_Charity_Analysis/blob/main/Resources/Features.png)
 
 ### Compiling, Training, and Evaluating the Model
 #### 1st Version of the Model:
